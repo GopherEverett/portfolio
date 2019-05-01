@@ -11,8 +11,8 @@ const FooterDiv = styled.div`
   padding-bottom: 0;
   background-color: white;
   text-align: center;
-  height: 150px;
-  position: absolute;
+  height: 20rem;
+  position: relative;
   bottom: 0;
   width: 100%;
   a img {
@@ -21,7 +21,7 @@ const FooterDiv = styled.div`
   width: 32px;
 }
 a img:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 `;
 
@@ -29,6 +29,8 @@ const IconList = styled.div`
   display: flex;
   justify-content: space-around;
   align-content: center;
+  max-width: 50%;
+  margin: 0 auto;
 `
 
 export default class Footer extends Component {
@@ -36,12 +38,12 @@ export default class Footer extends Component {
         return (
             <FooterDiv>
                 <IconList>
-                    <Link className="icon" to="https://git.generalassemb.ly/JohnAJacobs"><img src={gitIcon} alt="GitHub" /></Link>
-                    <Link className="icon" to="https://www.linkedin.com/in/john-a-jacobs/"><img src={inIcon} alt="LinkedIn"/></Link>
-                    <Link className="icon" to="https://www.instagram.com/gophereverett"><img src={instaIcon}
-                        alt="Instagram" /></Link>
-                    <Link className="icon" to="mailto:john.a.jacobs1973@gmail.com"><img src={mailIcon}
-                        alt="john.a.jacobs1973@gmail.com" /></Link>
+                    <a className="icon" href="https://github.com/GopherEverett"><img src={gitIcon} alt="GitHub" /></a>
+                    <a className="icon" href="https://www.linkedin.com/in/john-a-jacobs/"><img src={inIcon} alt="LinkedIn"/></a>
+                    <a className="icon" href="https://www.instagram.com/gophereverett"><img src={instaIcon}
+                        alt="Instagram" /></a>
+                    <a className="icon" href="mailto:john.a.jacobs1973@gmail.com"><img src={mailIcon}
+                        alt="john.a.jacobs1973@gmail.com" /></a>
                 </IconList>
                 <br/>
                 <div className="row" id="copyright" style={{ margin: 0 }}>

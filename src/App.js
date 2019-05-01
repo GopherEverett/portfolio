@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import styled from 'styled-components'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import FlipCard from './components/FlipCard'
+
 
 const AppDiv = styled.div`
   display: flex;
@@ -19,7 +21,7 @@ function App() {
         <Header />
         <div>
           <Switch>
-
+            <Route exact path="/projects" component={FlipCard}/>
           </Switch>
         </div>
         <Footer />

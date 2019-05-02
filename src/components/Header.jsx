@@ -62,7 +62,6 @@ export default class Header extends Component {
                     <NavLink to='/about'>ABOUT</NavLink>
                     <NavLink to='/projects'>PROJECTS</NavLink>
                     <a href={resume} target="_blank">RESUME</a>
-                    <NavLink to='/contact'>CONTACT</NavLink>
                 </NavDiv>
                 <hr />
             </HeaderDiv>

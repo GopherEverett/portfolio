@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import FlipCard from './components/FlipCard'
+import About from './components/About'
 
 
 const AppDiv = styled.div`
@@ -14,16 +15,21 @@ const AppDiv = styled.div`
   font-size: 1.15em;
 `;
 
+const Body = styled.div`
+  flex: 1;
+`
+
 function App() {
   return (
     <AppDiv>
       <Router>
         <Header />
-        <div>
+        <Body>
           <Switch>
+            <Route exact path="/about" component={About} />
             <Route exact path="/projects" component={FlipCard}/>
           </Switch>
-        </div>
+        </Body>
         <Footer />
       </Router>
     </AppDiv>

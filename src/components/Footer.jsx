@@ -11,7 +11,7 @@ const FooterDiv = styled.div`
   padding-bottom: 0;
   background-color: white;
   text-align: center;
-  height: 20rem;
+  max-height: 10rem;
   position: relative;
   bottom: 0;
   width: 100%;
@@ -27,7 +27,7 @@ a img:hover {
 
 const IconList = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: center;
   max-width: 50%;
   margin: 0 auto;

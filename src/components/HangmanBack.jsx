@@ -2,20 +2,29 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import Card from 'react-bootstrap/Card'
 
-const FrontDiv = styled.div`
-  img {
-      max-width: 100%;
-  }
+const BackDiv = styled.div`
+    img {
+        max-width: 100%;
+    };
+    text-align: center;
 `
 
 export default class HangmanBack extends Component {
     render() {
         return (
-            <FrontDiv>
+            <BackDiv>
                 <Card>
-                    <a href="https://www.johnajacobs.com/">Live Site</a>
+                    <h3>Hangman</h3>
+                    <p>A word game where a player chooses letters and if they are contained in a hidden word it fills in that letter. If word is filled in before eight incorrect guesses, player wins.</p>
+                    <h3>Technologies</h3>
+                    <p>Languages - HTML5, CSS3, Javascript</p>
+                    <p>Libraries - Animate.css, jQuery</p>
+                    <p>Audacity</p>
+                    <p>VS Code</p>
+                    <p>Project Planning - Figma, Trello</p>
+                    <p>Live Site @<a href="https://www.johnajacobs.com/"> www.johnajacobs.com</a></p>
                 </Card>
-            </FrontDiv>
+            </BackDiv>
         )
     }
 }

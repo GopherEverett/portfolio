@@ -14,6 +14,19 @@ const FlipCards = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 60vw;
+  @media only screen and (max-width: 860px) {
+      max-width:95vw;
+      
+      p {
+        font-size: .5rem;
+        margin: 2.75px;
+        }
+      h3 {
+        font-size: .7rem;
+        margin: 3px;
+      }
+  }
 `
 export default class FlipCard extends Component {
     render() {
@@ -25,17 +38,12 @@ export default class FlipCard extends Component {
                     flipOnClick={true}
                     flipDirection="horizontal"
                 >
-                    <FrontSide
-                        style={{
-                            maxWidth: '60vw',
-                        }}
-                    >
+                    <FrontSide>
                         <HangmanFront />
                     </FrontSide>
                     <BackSide
                         style={{
-                            maxWidth: '60vw',
-                            backgroundColor: '#175852',
+                            backgroundColor: 'rgb(239, 243, 249)',
                         }}>
                         <HangmanBack />
                     </BackSide>
@@ -45,17 +53,12 @@ export default class FlipCard extends Component {
                     flipOnClick={true}
                     flipDirection="horizontal"
                 >
-                    <FrontSide
-                        style={{
-                            maxWidth: '60vw',
-                        }}
-                    >
+                    <FrontSide>
                         <RevHeadsFront />
                     </FrontSide>
                     <BackSide
                         style={{
-                            maxWidth: '60vw',
-                            backgroundColor: '#175852',
+                            backgroundColor: 'rgb(239, 243, 249)',
                         }}>
                         <RevheadsBack />
                     </BackSide>
@@ -65,17 +68,12 @@ export default class FlipCard extends Component {
                     flipOnClick={true}
                     flipDirection="horizontal"
                 >
-                    <FrontSide
-                        style={{
-                            maxWidth: '60vw',
-                        }}
-                    >
+                    <FrontSide>
                         <AtliveFront />
                     </FrontSide>
                     <BackSide
                         style={{
-                            maxWidth: '60vw',
-                            backgroundColor: '#175852',
+                            backgroundColor: 'rgb(239, 243, 249)',
                         }}>
                         <AtliveBack />
                     </BackSide>
@@ -85,17 +83,12 @@ export default class FlipCard extends Component {
                     flipOnClick={true}
                     flipDirection="horizontal"
                 >
-                    <FrontSide
-                        style={{
-                            maxWidth: '60vw',
-                        }}
-                    >
+                    <FrontSide>
                         <RoastmeFront />
                     </FrontSide>
                     <BackSide
                         style={{
-                            maxWidth: '60vw',
-                            backgroundColor: '#175852',
+                            backgroundColor: 'rgb(239, 243, 249)',
                         }}>
                     <RoastmeBack />
                 </BackSide>

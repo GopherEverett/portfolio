@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import FlipCard from './components/FlipCard'
 import About from './components/About'
+import BackVid from './components/BackVid'
 
 
 const AppDiv = styled.div`
@@ -17,6 +18,8 @@ const AppDiv = styled.div`
 
 const Body = styled.div`
   flex: 1;
+  display: flex;
+  justify-content: center;
 `
 
 function App() {
@@ -26,8 +29,9 @@ function App() {
         <Header />
         <Body>
           <Switch>
+            <Route exact path="/" component={BackVid} />
             <Route exact path="/about" component={About} />
-            <Route exact path="/projects" component={FlipCard}/>
+            <Route exact path="/projects" component={FlipCard} />
           </Switch>
         </Body>
         <Footer />

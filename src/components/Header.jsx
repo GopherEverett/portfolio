@@ -57,7 +57,7 @@ export default class Header extends Component {
         return (
             <HeaderDiv>
                 <Link to="/">
-                    <ProfileImage src={require('../images/A84I7043.jpeg')} alt='John A. Jacobs' />
+                    <ProfileImage src={require('../images/IMG_0595.JPG')} alt='John A. Jacobs' />
                 </Link>
                 <ProfileTitle>JOHN A. JACOBS</ProfileTitle>
                 <NavDiv>

@@ -4,7 +4,8 @@ import styled from 'styled-components'
 
 const VidDiv = styled.div`
 #myVideo {
-  min-width: 100vw; 
+  min-width: 100vw;
+  filter:saturate(160%); 
 }
 `
 

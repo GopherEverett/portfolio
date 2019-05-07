@@ -15,7 +15,15 @@ const FlipCards = styled.div`
   flex-direction: column;
   align-items: center;
   max-width: 60vw;
-  @media only screen and (max-width: 860px) {
+  p {
+        font-size: 1.5vw;
+        margin: .25vw;
+        }
+      h3 {
+        font-size: 2vw;
+        margin: .28vw;
+      }
+  @media only screen and (max-width: 750px) {
       max-width:95vw;
       
       p {
@@ -32,6 +40,7 @@ export default class FlipCard extends Component {
     render() {
         return (
             <FlipCards>
+                <br />
                 <p>click on image to see details</p>
                 <Flippy
                     flipOnHover={false}
@@ -90,9 +99,10 @@ export default class FlipCard extends Component {
                         style={{
                             backgroundColor: 'rgb(239, 243, 249)',
                         }}>
-                    <RoastmeBack />
-                </BackSide>
+                        <RoastmeBack />
+                    </BackSide>
                 </Flippy>
+                <br />
             </FlipCards>
         )
     }

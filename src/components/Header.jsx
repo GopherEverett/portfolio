@@ -37,6 +37,7 @@ const HeaderDiv = styled.div`
   text-align: center;
   font-family: 'Special Elite', cursive;
   color: black;
+  box-shadow:0px 3px 6px 4px #d3d3d3;
 `;
 
 const ProfileTitle = styled.h1`

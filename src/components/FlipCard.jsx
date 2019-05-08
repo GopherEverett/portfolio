@@ -40,8 +40,9 @@ export default class FlipCard extends Component {
     render() {
         return (
             <FlipCards>
-                <br />
+                <br/>
                 <p>click on image to see details</p>
+                <br/>
                 <Flippy
                     flipOnHover={false}
                     flipOnClick={true}
@@ -57,6 +58,7 @@ export default class FlipCard extends Component {
                         <HangmanBack />
                     </BackSide>
                 </Flippy>
+                <br/>
                 <Flippy
                     flipOnHover={false}
                     flipOnClick={true}
@@ -72,6 +74,7 @@ export default class FlipCard extends Component {
                         <RevheadsBack />
                     </BackSide>
                 </Flippy>
+                <br/>
                 <Flippy
                     flipOnHover={false}
                     flipOnClick={true}
@@ -87,6 +90,7 @@ export default class FlipCard extends Component {
                         <AtliveBack />
                     </BackSide>
                 </Flippy>
+                <br/>
                 <Flippy
                     flipOnHover={false}
                     flipOnClick={true}

@@ -22,7 +22,7 @@ export default class HangmanBack extends Component {
                     <p>Audacity</p>
                     <p>VS Code</p>
                     <p>Project Planning - Figma, Trello</p>
-                    <p>Live Site @<a href="https://www.johnajacobs.com/"> www.johnajacobs.com</a></p>
+                    <p>Live Site @<a href="https://hipster-hangman.netlify.com/">hipster-hangman.netlify.com/</a></p>
                 </Card>
             </BackDiv>
         )

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import hangman from "../images/Screen Shot 2019-04-27 at 9.53.56 AM.png"
+import hangman from "../images/hangmanimg.webp"
+import hangmanAlt from "../images/Screen-Shot-2019-04-27-at-9.53.56-AM.jp2"
 import styled from 'styled-components'
 import Card from 'react-bootstrap/Card'
 
@@ -14,7 +15,11 @@ export default class HangmanFront extends Component {
         return (
             <FrontDiv>
                 <Card>
-                    <img src={hangman} alt="Hangman" />
+                    <picture>
+                        <source srcSet={hangman} type="image/webp" />
+                        <source srcSet={hangmanAlt} type="image/jp2" />
+                        <img src={hangman} alt="RevHeads" />
+                    </picture>
                 </Card>
             </FrontDiv>
         )

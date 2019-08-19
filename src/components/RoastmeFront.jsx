@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import roastme from "../images/roastmeimg.png"
+import roastme from "../images/roastmeimg.webp"
+import roastmeAlt from '../images/roastmeimg.jp2'
 import styled from 'styled-components'
 import Card from 'react-bootstrap/Card'
 
@@ -14,7 +15,11 @@ export default class RoastmeFront extends Component {
         return (
             <FrontDiv>
                 <Card>
-                    <img src={roastme} alt="RevHeads" />
+                    <picture>
+                        <source srcSet={roastme} type="image/webp" />
+                        <source srcSet={roastmeAlt} type="image/jp2" />
+                        <img src={roastme} alt="RevHeads" />
+                    </picture>
                 </Card>
             </FrontDiv>
         )

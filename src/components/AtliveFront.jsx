@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import atlive from "../images/atliveimg.png"
+import atlive from "../images/atliveimg.webp"
+import atliveAlt from "../images/atliveimg.jp2"
 import styled from 'styled-components'
 import Card from 'react-bootstrap/Card'
 
@@ -14,7 +15,11 @@ export default class AtliveFront extends Component {
         return (
             <FrontDiv>
                 <Card>
-                    <img src={atlive} alt="RevHeads" />
+                    <picture>
+                        <source srcSet={atlive} type="image/webp" />
+                        <source srcSet={atliveAlt} type="image/jp2" />
+                        <img src={atlive} alt="RevHeads" />
+                    </picture>
                 </Card>
             </FrontDiv>
         )

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import inIcon from '../images/linkedin-sign.png'
 import gitIcon from '../images/github-logo.png'

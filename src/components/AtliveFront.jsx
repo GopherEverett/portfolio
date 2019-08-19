@@ -16,7 +16,6 @@ export default class AtliveFront extends Component {
             <FrontDiv>
                 <Card>
                     <picture>
-                        <source srcSet={atlive} type="image/webp" />
                         <source srcSet={atliveAlt} type="image/jp2" />
                         <img src={atlive} alt="RevHeads" />
                     </picture>

@@ -16,7 +16,6 @@ export default class RoastmeFront extends Component {
             <FrontDiv>
                 <Card>
                     <picture>
-                        <source srcSet={roastme} type="image/webp" />
                         <source srcSet={roastmeAlt} type="image/jp2" />
                         <img src={roastme} alt="RevHeads" />
                     </picture>

@@ -3,11 +3,8 @@ import styled from 'styled-components'
 import Card from 'react-bootstrap/Card'
 
 const BackDiv = styled.div`
-  img {
-      max-width: 100%;
-  }
   text-align: center;
-`
+  `
 
 export default class RoastmeBack extends Component {
     render() {

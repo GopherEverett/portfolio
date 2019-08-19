@@ -16,7 +16,6 @@ export default class HangmanFront extends Component {
             <FrontDiv>
                 <Card>
                     <picture>
-                        <source srcSet={hangman} type="image/webp" />
                         <source srcSet={hangmanAlt} type="image/jp2" />
                         <img src={hangman} alt="RevHeads" />
                     </picture>

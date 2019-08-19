@@ -16,7 +16,6 @@ export default class RevHeadsFront extends Component {
             <FrontDiv>
                 <Card>
                     <picture>
-                        <source srcSet={revheads} type="image/webp" />
                         <source srcSet={revheadsAlt} type="image/jp2" />
                         <img src={revheads} alt="RevHeads" />
                     </picture>

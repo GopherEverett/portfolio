@@ -20,7 +20,7 @@ export default class AtliveBack extends Component {
                     <p>MongoDB with Mongoose for database management</p>
                     <p>Google Maps API</p>
                     <p>Project Planning - Lucidchart, Trello</p>
-                    <p>Live Site @<a href="https://atlive.herokuapp.com"> atlive.herokuapp.com</a></p>
+                    <p>Live Site @<a href="http://ec2-18-223-168-75.us-east-2.compute.amazonaws.com/"> ATLive</a></p>
                 </Card>
             </BackDiv>
         )

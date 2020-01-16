@@ -39,16 +39,16 @@ export default class Footer extends Component {
             <FooterDiv>
                 <IconList>
                     <a className="icon" href="https://github.com/GopherEverett"><img src={gitIcon} alt="GitHub" /></a>
-                    <a className="icon" href="https://www.linkedin.com/in/john-a-jacobs/"><img src={inIcon} alt="LinkedIn"/></a>
+                    <a className="icon" href="https://www.linkedin.com/in/john-a-jacobs/"><img src={inIcon} alt="LinkedIn" /></a>
                     <a className="icon" href="https://www.instagram.com/gophereverett"><img src={instaIcon}
                         alt="Instagram" /></a>
-                    <a className="icon" href="mailto:john.a.jacobs1973@gmail.com"><img src={mailIcon}
+                    <a className="icon" href="mailto:jj.atl@icloud.com"><img src={mailIcon}
                         alt="john.a.jacobs1973@gmail.com" /></a>
                 </IconList>
-                <br/>
+                <br />
                 <div className="row" id="copyright" style={{ margin: 0 }}>
                     <div className="col-lg-12">
-                        <p className="small">© 2019 John A. Jacobs</p>
+                        <p className="small">© 2020 John A. Jacobs</p>
                     </div>
                 </div>
             </FooterDiv>

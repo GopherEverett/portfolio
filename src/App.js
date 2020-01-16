@@ -7,7 +7,6 @@ import FlipCard from './components/FlipCard'
 import About from './components/About'
 import BackVid from './components/BackVid'
 
-
 const AppDiv = styled.div`
   display: flex;
   min-height: 100vh;

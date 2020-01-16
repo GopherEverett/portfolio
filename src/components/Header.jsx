@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components';
-import resume from '../documents/John_Jacobs_Resume.pdf'
+
 
 
 const ProfileImage = styled.img`
@@ -64,7 +64,7 @@ export default class Header extends Component {
                 <NavDiv>
                     <NavLink to='/about'>ABOUT</NavLink>
                     <NavLink to='/projects'>PROJECTS</NavLink>
-                    <a href={resume} target="_blank">RESUME</a>
+                    <a href="https://docs.google.com/document/d/1O0kiLGNu-oqjiDYe7UFsbI4d3Jpv4Z9Yuc3rT3EWUyU/edit?usp=sharing" rel="noopener noreferrer" target="_blank">RESUME</a>
                 </NavDiv>
             </HeaderDiv>
         )

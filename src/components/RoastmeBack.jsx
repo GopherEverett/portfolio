@@ -18,7 +18,7 @@ export default class RoastmeBack extends Component {
                     <p>Bootstrap CSS</p>
                     <p>Node.js with Express</p>
                     <p>MongoDB with Mongoose for database management</p>
-                    <p>Handlebars client-side rendering</p>
+                    <p>Handlebars server-side rendering</p>
                     <p>Project Planning - Lucidchart, Wireframe.cc, Trello</p>
                     <p>Live Site @<a href="https://evening-ravine-54483.herokuapp.com"> evening-ravine-54483.herokuapp.com</a></p>
                 </Card>

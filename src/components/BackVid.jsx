@@ -17,9 +17,9 @@ import './backvid.css'
 export default class BackVid extends Component {
     render() {
         return (
-                <video  autoPlay muted loop id="myVideo">
-                    <source src={vid} type="video/mp4" />
-                </video>
+            <video autoPlay muted loop id="myVideo">
+                <source src={vid} type="video/mp4" />
+            </video>
         )
     }
 }

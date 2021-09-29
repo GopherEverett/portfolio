@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+
 const AboutDiv = styled.div`
     font-family: 'Catamaran', cursive;
     text-align: center;

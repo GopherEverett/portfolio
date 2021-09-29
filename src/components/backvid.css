@@ -1,0 +1,8 @@
+#myVideo {
+    filter:blur(3px);
+    filter:opacity(.5);
+    filter:invert(100%);
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+}

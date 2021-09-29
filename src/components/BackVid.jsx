@@ -1,22 +1,25 @@
 import React, { Component } from 'react'
-import vid from '../images/Tkf9kEbBT3kxI1Nxc8h4kyDPf9kcb72wD6ilcuXJ.mp4'
+import vid from '../images/coding.mov'
 import styled from 'styled-components'
+import './backvid.css'
 
-const VidDiv = styled.div`
-#myVideo {
-  min-width: 100vw;
-  filter:saturate(160%); 
-}
-`
+// const VidDiv = styled.div`
+// #myVideo {
+//   /* min-width: 100vw;
+//   max-height: 60vh;
+//   filter:saturate(160%); */
+//     position: fixed;
+//     z-index: -1;
+//     width: 100%;
+// }
+// `
 
 export default class BackVid extends Component {
     render() {
         return (
-            <VidDiv>
-                <video autoPlay muted loop id="myVideo">
+                <video  autoPlay muted loop id="myVideo">
                     <source src={vid} type="video/mp4" />
                 </video>
-            </VidDiv>
         )
     }
 }

@@ -48,7 +48,7 @@ export default class Footer extends Component {
                 <br />
                 <div className="row" id="copyright" style={{ margin: 0 }}>
                     <div className="col-lg-12">
-                        <p className="small">© 2020 John A. Jacobs</p>
+                        <p className="small">© 2021 John A. Jacobs</p>
                     </div>
                 </div>
             </FooterDiv>

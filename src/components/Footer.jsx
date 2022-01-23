@@ -11,7 +11,7 @@ const FooterDiv = styled.div`
   background-color: white;
   box-shadow:0px -3px 6px 4px #d3d3d3;
   text-align: center;
-  max-height: 8rem;
+  max-height: 10rem;
   position: relative;
   bottom: 0;
   width: 100%;

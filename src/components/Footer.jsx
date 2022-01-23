@@ -11,7 +11,7 @@ const FooterDiv = styled.div`
   background-color: white;
   box-shadow:0px -3px 6px 4px #d3d3d3;
   text-align: center;
-  max-height: 10rem;
+  max-height: 8rem;
   position: relative;
   bottom: 0;
   width: 100%;
@@ -48,7 +48,7 @@ export default class Footer extends Component {
                 <br />
                 <div className="row" id="copyright" style={{ margin: 0 }}>
                     <div className="col-lg-12">
-                        <p className="small">© 2021 John A. Jacobs</p>
+                        <p className="small">©2022 John A. Jacobs</p>
                     </div>
                 </div>
             </FooterDiv>

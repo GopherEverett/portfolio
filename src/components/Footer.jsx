@@ -48,7 +48,7 @@ export default class Footer extends Component {
                 <br />
                 <div className="row" id="copyright" style={{ margin: 0 }}>
                     <div className="col-lg-12">
-                        <p className="small">©2022 John A. Jacobs</p>
+                        <p className="small">©{new Date().getFullYear()} John A. Jacobs</p>
                     </div>
                 </div>
             </FooterDiv>

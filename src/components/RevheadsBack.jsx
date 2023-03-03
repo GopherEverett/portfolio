@@ -19,7 +19,7 @@ export default class RevheadsBack extends Component {
                     <p>React.js front-end</p>
                     <p>VinAudit and NHTSA APIs</p>
                     <p>Project Planning - Lucidchart, Trello</p>
-                    <p>Live Site @<a href="https://revheads.herokuapp.com/"> revheads.herokuapp.com</a></p>
+                    <p>Live Site @<a href="https://revheads.net/"> revheads.herokuapp.com</a></p>
                 </Card>
             </BackDiv>
         )

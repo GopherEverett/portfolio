@@ -50,22 +50,6 @@ export default class FlipCard extends Component {
                     flipDirection="horizontal"
                 >
                     <FrontSide>
-                        <HangmanFront />
-                    </FrontSide>
-                    <BackSide
-                        style={{
-                            backgroundColor: 'rgb(239, 243, 249)',
-                        }}>
-                        <HangmanBack />
-                    </BackSide>
-                </Flippy>
-                <br />
-                <Flippy
-                    flipOnHover={false}
-                    flipOnClick={true}
-                    flipDirection="horizontal"
-                >
-                    <FrontSide>
                         <RevHeadsFront />
                     </FrontSide>
                     <BackSide
@@ -105,6 +89,22 @@ export default class FlipCard extends Component {
                             backgroundColor: 'rgb(239, 243, 249)',
                         }}>
                         <EthlocatorBack />
+                    </BackSide>
+                </Flippy>
+                <br />
+                <Flippy
+                    flipOnHover={false}
+                    flipOnClick={true}
+                    flipDirection="horizontal"
+                >
+                    <FrontSide>
+                        <HangmanFront />
+                    </FrontSide>
+                    <BackSide
+                        style={{
+                            backgroundColor: 'rgb(239, 243, 249)',
+                        }}>
+                        <HangmanBack />
                     </BackSide>
                 </Flippy>
                 <br />

@@ -9,7 +9,8 @@ import AtliveBack from './AtliveBack'
 import RevheadsBack from './RevheadsBack'
 import RoastmeBack from './RoastmeBack';
 import styled from 'styled-components'
-
+import EthlocatorFront from './EthlocatorFront';
+import EthlocatorBack from './EthlocatorBack'
 const FlipCards = styled.div`
   display: flex;
   flex-direction: column;
@@ -25,7 +26,7 @@ const FlipCards = styled.div`
       }
   @media only screen and (max-width: 750px) {
       max-width:95vw;
-      
+
       p {
         font-size: .5rem;
         margin: 2.75px;
@@ -40,9 +41,9 @@ export default class FlipCard extends Component {
     render() {
         return (
             <FlipCards>
-                <br/>
+                <br />
                 <p>click on image to see details</p>
-                <br/>
+                <br />
                 <Flippy
                     flipOnHover={false}
                     flipOnClick={true}
@@ -58,7 +59,7 @@ export default class FlipCard extends Component {
                         <HangmanBack />
                     </BackSide>
                 </Flippy>
-                <br/>
+                <br />
                 <Flippy
                     flipOnHover={false}
                     flipOnClick={true}
@@ -74,7 +75,7 @@ export default class FlipCard extends Component {
                         <RevheadsBack />
                     </BackSide>
                 </Flippy>
-                <br/>
+                <br />
                 <Flippy
                     flipOnHover={false}
                     flipOnClick={true}
@@ -90,7 +91,23 @@ export default class FlipCard extends Component {
                         <AtliveBack />
                     </BackSide>
                 </Flippy>
-                <br/>
+                <br />
+                <Flippy
+                    flipOnHover={false}
+                    flipOnClick={true}
+                    flipDirection="horizontal"
+                >
+                    <FrontSide>
+                        <EthlocatorFront />
+                    </FrontSide>
+                    <BackSide
+                        style={{
+                            backgroundColor: 'rgb(239, 243, 249)',
+                        }}>
+                        <EthlocatorBack />
+                    </BackSide>
+                </Flippy>
+                <br />
                 <Flippy
                     flipOnHover={false}
                     flipOnClick={true}

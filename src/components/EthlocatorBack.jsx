@@ -12,7 +12,7 @@ export default class AtliveBack extends Component {
             <BackDiv>
                 <Card>
                 <h3>Ethlocator</h3>
-                    <p>Ethlocator is an app I created to find gas stations within a chosen radius of the user that sell E85 fuel.</p>
+                    <p>Ethlocator is an app I created to find gas stations within a user selected radius of the user that sell E85 fuel.</p>
                     <h3>Technologies</h3>
                     <p>React</p>
                     <p>National Renewable Energy Laboratory API</p>
